@@ -209,8 +209,44 @@
             </h4>
           </div>
         </div>
+
+    
+    <div class="col-lg-4 col-sm-6 mb-5">
+      <a class="portfolio-box" data-toggle="modal" href="#liri-modal">
+        <img class="img-fluid" src="img/portfolio/thumbnails/liri.png"  width="300" height="300" alt="liri-node-app image">
+        <div class="portfolio-box-caption">
+          <div class="project-name mt-5">
+            <h2>
+              <strong>More..</strong>
+            </h2>
+          </div>
+        </div>
+      </a>
+      <div>
+        <h4 class="text-center mt-2 task-title">
+          <strong>Liri-node-app</strong>
+        </h4>
       </div>
     </div>
+    <div class="col-lg-4 col-sm-6 mb-5">
+      <a class="portfolio-box" data-toggle="modal" href="#bamazon-modal">
+        <img class="img-fluid" src="img/portfolio/thumbnails/bamazon.jpg" alt="bamazon image">
+        <div class="portfolio-box-caption">
+          <div class="project-name mt-5">
+            <h2>
+              <strong>More..</strong>
+            </h2>
+          </div>
+        </div>
+      </a>
+      <div>
+        <h4 class="text-center mt-2 task-title">
+          <strong>Bamazon</strong>
+        </h4>
+      </div>
+    </div>      
+  </div>
+  </div>  
   </section>
   <section id="contact">
     <div class="container">
@@ -356,15 +392,15 @@
     </div>
   </div>
 
-  <!-- The Modal Home In -->
-  <div class="modal fade" id="home-modal" style="width:100%">
+  <!-- The Modal liri.js -->
+  <div class="modal fade" id="liri-modal" style="width:100%">
     <div class="modal-dialog">
       <!-- Can change this for width in media query -->
       <div class="modal-content">
         <!-- Modal Header -->
         <div class="modal-header">
           <h2 class="modal-title">
-            <strong>Scheduler</strong>
+            <strong>Liri-node-app</strong>
           </h2>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
@@ -379,13 +415,19 @@
                 </h3>
                 <hr>
                 <p class="text-center list-inline">
-                    We believe making a housing decision shouldn't consume all of your time and mental energy. This mobile friendly app is designed to help users searching for a home within 5 specific neighborhoods of Minneapolis.
+                  This is an app that will help you see all my tweets in my Twitter account, search movie information from the OMDB API, seach song's information you are listing to on Spotify NPM, and let liri do its thing.
 
-                    Users will be able to add listing to their Favorites page and look at the next house by simplying cliking on the right arrow, or skip to the next lising by clicking on left arrow.
-                    
-                    The app uses 2 API's, Zillow and Walk Score. Zillow provides information for users on the house, such as, pictures of the houses, asking price, Zestimate, number of bedrooms, number of baths, year built, and mortage estimate.
-                    
-                    Walk Score provides users scores from scale of 0 to 100 (100 being the best), score on bike friendliness, transit score, and walkability score (walkable distance).
+                  First, you need to type "node liri.js" and a space before each command below.
+                  
+                  If you would like to see my tweets, simply just type "my-tweets" to see them,
+                  
+                  Type "spotify-this-song" and the name of the song you want to search information on,
+                  
+                  Or type "movie-this" and the name of the movie you want more information on,
+                  
+                  Or type "do-what-it-says" and let liri do its thing.
+                  
+                  Have fun searching!
                 </p>
               </div>
             </div>
@@ -393,13 +435,56 @@
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
-          <a href="https://github.com/JBooth33/Home-In" class="btn btn-primary" role="button" target="_blank">Git Hub Repo</a>
-          <a href="https://jbooth33.github.io/Home-In/" class="btn btn-primary" role="button" target="_blank">Play Game</a>
+          <a href="https://github.com/neritasung/liri-node-app" class="btn btn-primary" role="button" target="_blank">Git Hub Repo</a>
           <a href="#" class="btn btn-primary " role="button" data-dismiss="modal">Close</a>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- The Modal Bamazon -->
+  <div class="modal fade" id="bamazon-modal" style="width:100%">
+    <div class="modal-dialog">
+      <!-- Can change this for width in media query -->
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h2 class="modal-title">
+            <strong>Bamazon</strong>
+          </h2>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img src="img/portfolio/thumbnails/project_1.JPG" alt="application image" class="img-fluid mx-auto d-block">
+                <h3 class="mt-4 text-center">
+                  <strong> About</strong>
+                </h3>
+                <hr>
+                <p class="text-center list-inline">
+                  Welcome to the Bamazon!
+
+                  Our store have different merchandise for you to purchase. To see more details and instructions on how to use this site, click <a href="https://docs.google.com/document/d/1UvBEbKhurLwXAtHSjmbotv6NkJmitwvJB5LcCLgh0ic/edit?usp=sharing">
+                  here.</a>
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <a href="https://github.com/neritasung/Bamazon-Customer" class="btn btn-primary" role="button" target="_blank">Git Hub Repo</a>
+          <a href="#" class="btn btn-primary " role="button" data-dismiss="modal">Close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
    <!-- Footer -->
    <footer class="foot">
